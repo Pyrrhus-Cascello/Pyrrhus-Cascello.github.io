@@ -6,7 +6,7 @@
 .wrapper {
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
-	margin:10% auto;
+	margin:10% 25% 0 24% ;
 }
 
 h1{
@@ -21,4 +21,33 @@ h1{
 hr{
     border: 6px  dotted #ff7b00;
     border-style: none none dotted; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+  float:left;
+
+}
+
+a {
+    display: inline-block;
+    text-align:center;
+    font-size: 20px;
+    width: 190px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21
+    padding: 800px;
+    background-color: #dddddd;
+}
+
+span.notImportant{
+	font-size: 15px;
+
 }
