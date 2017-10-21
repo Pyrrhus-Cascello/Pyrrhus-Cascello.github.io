@@ -1,4 +1,4 @@
-a.button1{
+a.button{
 	display:inline-block;
 	padding:1em 1.2em;
 	border:0.1em solid #ff7b00;
@@ -12,12 +12,44 @@ a.button1{
 	text-align:center;
 	transition: all 0.2s;
 }
-a.button1:hover{
-	color:#ffffff;
-	background-color:#ff7b00;
+
+a.button.one {  
+    background: url('../images/code.PNG') no-repeat;
+    background-size: 100%;
+}
+
+a.button.two {  
+    background: 
+
+     linear-gradient(
+      rgba(5, 5, 5, 0.45), 
+      rgba(5, 5, 5, 0.45)
+     ),
+
+    url('../images/Money.jpg') no-repeat;
+    background-size: 100%;
+}
+
+a.button.three {  
+    
+ background:
+ 
+ linear-gradient(
+  rgba(5, 5, 5, 0.45), 
+  rgba(5, 5, 5, 0.45)
+ ),
+ 
+ url('../images/floss.jpg') no-repeat;
+ background-size: 100%;
+}
+
+a.button:hover{
+	/*color:#ffffff; */
+ text-decoration: underline;
+	
 }
 @media all and (max-width:517px){
-	a.button1{
+	a.button{
 		display:block;
 		margin:0.4em auto;
 	}
