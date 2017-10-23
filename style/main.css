@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'MeriendaOne';
+    src: url('fonts/MeriendaOne-Regular.ttf') format("truetype");
+}
+
+.wrapper {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	margin:10% 25% 0 24% ;
+}
+
+h1{
+	font-family: 'MeriendaOne';
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+hr{
+    border: 6px  dotted #ff7b00;
+    border-style: none none dotted; 
+}
+
+@media all and (max-width:969px){
+    .wrapper{
+        
+        margin:10% 10% 0 10%;
+    }
+}
+
+
