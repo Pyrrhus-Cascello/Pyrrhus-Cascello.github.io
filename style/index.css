@@ -6,7 +6,7 @@
 .wrapper {
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
-
+	margin:10% 25% 0 24% ;
 }
 
 h1{
@@ -23,6 +23,11 @@ hr{
     border-style: none none dotted; 
 }
 
-
+@media all and (max-width:969px){
+    .wrapper{
+        
+        margin:10% 10% 0 10%;
+    }
+}
 
 
