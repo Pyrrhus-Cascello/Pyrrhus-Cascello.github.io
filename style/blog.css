@@ -25,6 +25,13 @@
 			margin-bottom:60px;
 			
 		}
+a[title] figure img{
+			
+		float: left;
+		}
+a[title] figure figcaption{
+	font-size: 20px;
+}
 
 body{
 	margin-bottom: 75px;
