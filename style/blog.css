@@ -11,11 +11,14 @@
 			
 		}
 
+a[title] article{
 
+	width: 100%;
+}
 
 	.main a{
 			text-decoration: none;
-			padding: 1rem;
+			padding: 10px;
 			color:#424242;
 			box-shadow: -5px 2px 5px #ff7b00;
 
@@ -23,6 +26,7 @@
 			display: flex;
 			
 			margin-bottom:60px;
+
 			
 		}
 a[title] figure img{
@@ -31,6 +35,7 @@ a[title] figure img{
 		}
 a[title] figure figcaption{
 	font-size: 20px;
+
 }
 
 body{
