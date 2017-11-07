@@ -5,6 +5,10 @@ text-align: center;
 	
 }
 
+.link {
+	text-decoration: underline;
+	color: #ff7b00;
+}
 .wrapper {
 		text-align: left;
 		margin: 20px 10%;
